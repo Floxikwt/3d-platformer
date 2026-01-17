@@ -361,6 +361,7 @@
 "Assets/ThirdPart/Mini First Person Controller/Scripts/Components/Zoom.cs"
 "Assets/ThirdPart/Mini First Person Controller/Scripts/FirstPersonLook.cs"
 "Assets/ThirdPart/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
+"Assets/Trampoline.cs"
 -langversion:9.0
 
 /deterministic

@@ -56,15 +56,16 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Teleport.cs" />
     <Compile Include="Assets\ThirdPart\Mini First Person Controller\Scripts\FirstPersonMovement.cs" />
     <Compile Include="Assets\ThirdPart\Mini First Person Controller\Scripts\Components\Zoom.cs" />
     <Compile Include="Assets\ThirdPart\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
     <Compile Include="Assets\ThirdPart\Mini First Person Controller\Scripts\FirstPersonLook.cs" />
     <Compile Include="Assets\ThirdPart\Mini First Person Controller\Scripts\Components\Jump.cs" />
+    <Compile Include="Assets\SpeedTrigger.cs" />
     <Compile Include="Assets\ThirdPart\Mini First Person Controller\Scripts\Components\Crouch.cs" />
     <Compile Include="Assets\ThirdPart\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
-    <Compile Include="Assets\SpeedTrigger.cs" />
-    <Compile Include="Assets\Teleport.cs" />
+    <Compile Include="Assets\Trampoline.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ThirdPart\Wand and Circles\Polygon City Free Pack - Environment and Interior\Materials\Double Sided Standard Diffuse Bump.shader" />
