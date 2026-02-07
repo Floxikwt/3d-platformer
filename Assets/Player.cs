@@ -4,21 +4,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private int coins;
-    public AudioSource audioSource;
-    public AudioClip collectSound;
-    public AudioClip damageSound;
 
-    public void CollectCoins()
+    //Здоровье игрока
+    private int health = 10;
 
-    {
-        //Увеличение кол-ва монет на еденицу
-        coins++;
-
-        //Воспроизведение звука сбора монет
-        audioSource.PlayOneShot(collectSound);
-
-        //Печать информации о собранных монетах
-        print(" Собрано монет: " + coins);
+    //Метод понижающий здоровье игрока
+    public void TakeDamage(int damage){
+        health -= damage;
+        print("Здоровье игрока:" + health);
     }
 }
