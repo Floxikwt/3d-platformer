@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         //Меняет каждый кадр позиции NPC на новую
-
+        
         transform.position =
     Vector3.MoveTowards(transform.position,
     target.position, speed + Time.deltaTime);
