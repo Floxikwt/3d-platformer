@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Missile : MonoBehaviour
 {
-    public float speed = 10f;
+    public float speed = 10.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class Missile : MonoBehaviour
 
     }
     void OnTriggerEnter(Collider other) {
-        Destroy(gsssameObject);
+        Destroy(gameObject);
         Enemy enemy = other.GetComponent<Enemy>();
         Destroy(enemy.gameObject);
     }
