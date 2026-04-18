@@ -75460,6 +75460,7 @@ GameObject:
   - component: {fileID: 564918627}
   - component: {fileID: 564918629}
   - component: {fileID: 564918628}
+  - component: {fileID: 564918630}
   m_Layer: 5
   m_Name: Time
   m_TagString: Untagged
@@ -75584,6 +75585,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 564918626}
   m_CullTransparentMesh: 1
+--- !u!114 &564918630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564918626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bfcf13e4552b2c4bb543730aa359667, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minutes: 1
+  seconds: 0
+  timerText: {fileID: 564918628}
 --- !u!1001 &564981217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -163153,7 +163169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -924, y: -657}
+  m_AnchoredPosition: {x: -896, y: -668}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1246983672
@@ -236480,6 +236496,7 @@ GameObject:
   - component: {fileID: 1818256480}
   - component: {fileID: 1818256482}
   - component: {fileID: 1818256481}
+  - component: {fileID: 1818256483}
   m_Layer: 5
   m_Name: CoinsCounter
   m_TagString: Untagged
@@ -236547,6 +236564,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818256479}
   m_CullTransparentMesh: 1
+--- !u!114 &1818256483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818256479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd110d24fbccd240a2fb56c37201083, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1818476676
 PrefabInstance:
   m_ObjectHideFlags: 0
