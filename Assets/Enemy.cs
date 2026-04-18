@@ -20,5 +20,11 @@ public class Enemy : MonoBehaviour
         //–азворачивает каждый кадр NPC лицом к цели
         transform.LookAt(target.position);
     }
-    
+
+    void OnTriggerEnter(Collider other)
+    {
+        Player player = other.GetComponent<Player>();
+        player.TakeDamage(playerDamage);
+    }
+
 }

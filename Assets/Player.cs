@@ -9,15 +9,17 @@ public class Player : MonoBehaviour
     public Transform attackPoint;
     public int coins;
 
+    //Текущее здоровье игрока
+    public int health = 10;
+
+    //Максимальное здоровье игрока
+    public int maxHealth = 10;
+
     //Обьект, отвечающий за проигрывание звука
     public AudioSource audioSource;
 
     //Звуковой файл, содержащий звук урона
     public AudioClip damageSound;
-
-
-    //Здоровье игрока
-    private int health = 10;
 
     //Метод понижающий здоровье игрока
     public void TakeDamage(int damage) {

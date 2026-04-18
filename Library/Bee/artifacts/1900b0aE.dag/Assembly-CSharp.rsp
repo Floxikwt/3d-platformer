@@ -356,6 +356,7 @@
 "Assets/Enemy.cs"
 "Assets/Missile.cs"
 "Assets/Player.cs"
+"Assets/PlayerUI.cs"
 "Assets/SceneChange.cs"
 "Assets/SpeedTrigger.cs"
 "Assets/Teleport.cs"
