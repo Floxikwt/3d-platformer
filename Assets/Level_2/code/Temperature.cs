@@ -19,17 +19,17 @@ public class Temperature : MonoBehaviour
     {
         temperatureCurrent -= freezeSpeed * Time.deltaTime;
 
-        if {temperatureCurrent <= temperatureCritical}
+        if (temperatureCurrent <= temperatureCritical)
         {
-            if {freezeDamageTimer <= 0}
-        }
-        {
-            health.TakeDamage{playerDamage};
-            freezeDamageTimer += freezeDamageDelay;
-        }
-        else
-        {
-            freezeDamageTimer -= Time.deltaTime;
+            if (freezeDamageTimer <= 0)
+            {
+                health.TakeDamage(playerDamage);
+                freezeDamageTimer += freezeDamageDelay;
+            }
+            else
+            {
+                freezeDamageTimer -= Time.deltaTime;
+            }
         }
     }
 }
