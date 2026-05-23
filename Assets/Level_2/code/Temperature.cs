@@ -5,14 +5,14 @@ using UnityEngine;
 public class Temperature : MonoBehaviour
 {
 
-    public Health health;
+    public Player health;
     public int playerDamage = 2;
     public float temperatureCurrent = 36.6f;
     public float temperatureNormal = 36.6f;
     public float temperatureCritical = 34f;
     public float freezeSpeed = 0.05f;
     public float freezeDamageTimer = 1;
-    public float freezeDamageDely = 2;
+    public float freezeDamageDelay = 2;
 
 
     void Update()

@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class button : MonoBehaviour
 {
-   public Animator button;
+   public Animator button1;
    public Animator toOpen;
 
    void Start()
    {
-    button.enabled = false;
+    button1.enabled = false;
 
    }
 
    private void OnTriggerEnter(Collider other)
    {
-    button.enabled = true;
+    button1.enabled = true;
     toOpen.enabled = true;
    }
 }
