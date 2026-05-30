@@ -15,7 +15,7 @@ C:/Users/Algo/Documents/GitHub/3d-platformer
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59322
+60052
 Successfully changed project path to: C:/Users/Algo/Documents/GitHub/3d-platformer
 C:/Users/Algo/Documents/GitHub/3d-platformer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Algo/Documents/GitHub/3d-platformer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 202.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 435.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.019294 seconds.
+Registered in 0.022755 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 247.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 577.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.077 seconds
+- Completed reload, in  2.617 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2078ms)
-		BeginReloadAssembly (255ms)
+	ReloadAssembly (2618ms)
+		BeginReloadAssembly (269ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1553ms)
-			LoadAssemblies (245ms)
+		EndReloadAssembly (1868ms)
+			LoadAssemblies (263ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (654ms)
+			SetupTypeCache (374ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (706ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (1225ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (247ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (305ms)
-				ProcessInitializeOnLoadMethodAttributes (131ms)
+				RefreshPlugins (577ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (427ms)
+				ProcessInitializeOnLoadMethodAttributes (191ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.028854 seconds.
+Registered in 0.024666 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Algo\Documents\GitHub\3d-platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Algo\Documents\GitHub\3d-platformer\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.709 seconds
+- Completed reload, in  4.202 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2711ms)
-		BeginReloadAssembly (243ms)
+	ReloadAssembly (4204ms)
+		BeginReloadAssembly (566ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (18ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (2086ms)
-			LoadAssemblies (288ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (3183ms)
+			LoadAssemblies (475ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (680ms)
+			SetupTypeCache (979ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (141ms)
-			SetupLoadedEditorAssemblies (841ms)
+			RebuildScriptCaches (204ms)
+			SetupLoadedEditorAssemblies (1588ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (193ms)
-				ProcessInitializeOnLoadAttributes (540ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (321ms)
+				ProcessInitializeOnLoadAttributes (1098ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (24ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3420 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.8 KB). Loaded Objects now: 3901.
-Memory consumption went from 137.3 MB to 137.2 MB.
-Total: 6.761600 ms (FindLiveObjects: 0.455100 ms CreateObjectMapping: 0.390500 ms MarkObjects: 5.659800 ms  DeleteObjects: 0.254100 ms)
+Unloading 3579 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (182.5 KB). Loaded Objects now: 4059.
+Memory consumption went from 143.2 MB to 143.0 MB.
+Total: 14.495100 ms (FindLiveObjects: 0.643700 ms CreateObjectMapping: 0.525400 ms MarkObjects: 13.004900 ms  DeleteObjects: 0.318900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,241 +159,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 532368.789931 seconds.
-  path: Assets/ThirdParty/Turtle
-  artifactKey: Guid(5925c046accf8445d8489111bdfdf1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Turtle using Guid(5925c046accf8445d8489111bdfdf1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb63a07b3e1bdb6f1e843bab5cfd181e') in 0.028371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009735 seconds.
-  path: Assets/ThirdParty/Staff
-  artifactKey: Guid(a1f7f2ba2a7994acabd42acd18a42f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Staff using Guid(a1f7f2ba2a7994acabd42acd18a42f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b4ffac53595fbf39b78cbcaa8f4648') in 0.023025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 261.880046 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Floor_023d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(f9b441c3b8871f24da4b5c5fefd6d7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Floor_023d3aba195e4d26ee.terrainlayer using Guid(f9b441c3b8871f24da4b5c5fefd6d7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1dc7429c0dd3d8556a931ad82a924fa') in 0.210662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.325444 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/BattleWalkBack.fbx
-  artifactKey: Guid(61d53a1bd108efb4a8f50f729e2b15bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/BattleWalkBack.fbx using Guid(61d53a1bd108efb4a8f50f729e2b15bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d48b120c564f1e2234a9557b05a762a') in 0.264716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/BattleWalkLeft.fbx
-  artifactKey: Guid(cb2d7c8eb8d682d4db58ae9673579e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/BattleWalkLeft.fbx using Guid(cb2d7c8eb8d682d4db58ae9673579e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efefa5833c0a9cf8ebb512a719930402') in 0.094700 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.290978 seconds.
-  path: Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/greek_wall_2_window.prefab
-  artifactKey: Guid(0f4a2c0456dca4089bef336bf9fe7ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/greek_wall_2_window.prefab using Guid(0f4a2c0456dca4089bef336bf9fe7ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803cda760e4a8a64d511fdc50eb4fe4d') in 0.088028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Models/Roman/roman_window_shutters_1_offset.fbx
-  artifactKey: Guid(6e804b4df6bb148388f332c92aa33d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Models/Roman/roman_window_shutters_1_offset.fbx using Guid(6e804b4df6bb148388f332c92aa33d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e752d05d17215a20d523afc0591a3299') in 0.110763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/ThirdPart/Polylised - Medieval Desert City/Models/Civilian_Buildings/standard_rooftop_window.FBX
-  artifactKey: Guid(611a3c198f7d2c94dabfb5b66f16dabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Models/Civilian_Buildings/standard_rooftop_window.FBX using Guid(611a3c198f7d2c94dabfb5b66f16dabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d8e3f6eb65bf5a22f045bcb775af18') in 0.094433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Models/Roman/Optimized/roman_wall_window_4.fbx
-  artifactKey: Guid(f6a46239661264925ae297524473918a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Models/Roman/Optimized/roman_wall_window_4.fbx using Guid(f6a46239661264925ae297524473918a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8184ef9a7c62b022fe406b2980eee7') in 0.074208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/JumpUp.fbx
-  artifactKey: Guid(d84eaa1354c31fa49a71e96cc487d56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/JumpUp.fbx using Guid(d84eaa1354c31fa49a71e96cc487d56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccba02e27b0e41d9201691e97e9952d') in 0.084450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/VictoryStart.fbx
-  artifactKey: Guid(308b48c15b0fc8d4a83d4703f4dbeb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/VictoryStart.fbx using Guid(308b48c15b0fc8d4a83d4703f4dbeb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511e96a81a3ffa30cc0d267eb431d74c') in 0.213092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/Attack03Maintain.fbx
-  artifactKey: Guid(84360086255e9b24eb56fb310a84754e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/Attack03Maintain.fbx using Guid(84360086255e9b24eb56fb310a84754e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4a8348c46d22be63a3cc1bd68800d6') in 0.090020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/WalkForward.fbx
-  artifactKey: Guid(8254954c6c0cf98469be07a2c0a87db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/WalkForward.fbx using Guid(8254954c6c0cf98469be07a2c0a87db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc677e1c8ca634efc01373432ccc56eb') in 0.091835 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/JumpEnd.fbx
-  artifactKey: Guid(a89727a6c7e9e224f9079feba5ba3ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/JumpEnd.fbx using Guid(a89727a6c7e9e224f9079feba5ba3ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eda4f41ed201c56dfd05be85a2b9bc8') in 0.081212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/ThirdPart/Polylised - Medieval Desert City/Models/Civilian_Buildings/standard_window_2.FBX
-  artifactKey: Guid(90c26c42e77aeb44abaa72a0ee720610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Models/Civilian_Buildings/standard_window_2.FBX using Guid(90c26c42e77aeb44abaa72a0ee720610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fdd0668fa696f51e18ebd37f88dd2a') in 0.082957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Prefabs/Models/Standard/roman_window_shutters_1_offset.prefab
-  artifactKey: Guid(e36415be1865046cfb501b93ba9c15df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Prefabs/Models/Standard/roman_window_shutters_1_offset.prefab using Guid(e36415be1865046cfb501b93ba9c15df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309b4e9ab3c465339d46ee072afb2e15') in 0.042162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_wall_bowed_window_round.prefab
-  artifactKey: Guid(97384239fadec4e2cb9f1cf8023339ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/MegaPack1Lite/SciFiPack1/Prefabs/scifi_wall_bowed_window_round.prefab using Guid(97384239fadec4e2cb9f1cf8023339ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f79f25352cb90fb23347e4d332cd20') in 0.617612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/Attack02Maintain.fbx
-  artifactKey: Guid(772ab72bc9a5db54bbf0865469eecc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/Attack02Maintain.fbx using Guid(772ab72bc9a5db54bbf0865469eecc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30ccc01646ba3e20df2d46cf6c82f00') in 0.075407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/standard_rooftop_window.prefab
-  artifactKey: Guid(20fad2715d170e34d98615cc2c57aea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/standard_rooftop_window.prefab using Guid(20fad2715d170e34d98615cc2c57aea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47bef6b9e97a43d79c6b1f46f0e7d3d') in 0.047836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Models/WizardModel.fbx
-  artifactKey: Guid(bed7a092d53e7c748bd65db98cebf9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Models/WizardModel.fbx using Guid(bed7a092d53e7c748bd65db98cebf9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd33b2bd9167948d2ec4cc7aa2607991') in 0.080440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Models/Roman/Optimized/roman_window_shutters_1_offset.fbx
-  artifactKey: Guid(35f10f94070de458795f83612c5c5ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/MegaPack1Lite/RomanCityPack1Lite/Models/Roman/Optimized/roman_window_shutters_1_offset.fbx using Guid(35f10f94070de458795f83612c5c5ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8287506906adf6e4961f2f931f4d4b73') in 0.094084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/PotionDrink.fbx
-  artifactKey: Guid(e5325ecccbec8e94f957227cd2b72fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/PotionDrink.fbx using Guid(e5325ecccbec8e94f957227cd2b72fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034c4947e87728ac42ab4ccf9f21d733') in 0.082236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/Idle03.fbx
-  artifactKey: Guid(cb4c96787ba07184d9956f64f02cee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/Idle03.fbx using Guid(cb4c96787ba07184d9956f64f02cee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391ac0e16c32adbb59569c0943d5e396') in 0.071045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/ThirdPart/Polylised - Medieval Desert City/Models/Civilian_Buildings/standard_window_1.FBX
-  artifactKey: Guid(2a9e9e7bede996c4dac63338f4a3fa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Models/Civilian_Buildings/standard_window_1.FBX using Guid(2a9e9e7bede996c4dac63338f4a3fa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1bfa5edde03c5518d2b9499647e87a') in 0.074079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.072692 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Prefabs/WizardPrefab.prefab
-  artifactKey: Guid(ccd8c3b89aa02e943a08ab9238a8a70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Prefabs/WizardPrefab.prefab using Guid(ccd8c3b89aa02e943a08ab9238a8a70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b619c731aae1cd6dc46f8fe94261ad7') in 0.045292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 349.424348 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/Attack03Start.fbx
-  artifactKey: Guid(4fce6296ed4db2c49b2b02fb8c9bea7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/Attack03Start.fbx using Guid(4fce6296ed4db2c49b2b02fb8c9bea7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd57bf31dd6ec48e04afe4d38d22ad13') in 0.068372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/Attack04.fbx
-  artifactKey: Guid(8692461656b17c84981f4c64c15341fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/Attack04.fbx using Guid(8692461656b17c84981f4c64c15341fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a997d9b601e66901c933ba28cb78bf33') in 0.074285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/DefendHit.fbx
-  artifactKey: Guid(e7da2deb9071c004cb067139c9064ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/DefendHit.fbx using Guid(e7da2deb9071c004cb067139c9064ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86b4c181e4e4458115c9167ba7f6089') in 0.071945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/Die.fbx
-  artifactKey: Guid(48511f3269ab33140ad32d856584c98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/Die.fbx using Guid(48511f3269ab33140ad32d856584c98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccbdebb7ed7b2091e055f264b60056b') in 0.086391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Level_1/ThirdParty/Wizard/Animations/Dizzy.fbx
-  artifactKey: Guid(7d2e0a865aa3eca4a9fa04b999ad8f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level_1/ThirdParty/Wizard/Animations/Dizzy.fbx using Guid(7d2e0a865aa3eca4a9fa04b999ad8f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1ded36b5dde9bed816a80200b6b947') in 0.080077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 857.327279 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr aura runic hdr ab nosp.mat
-  artifactKey: Guid(cbb6f419bbe7c6e4d9ce7e0322aa267d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr aura runic hdr ab nosp.mat using Guid(cbb6f419bbe7c6e4d9ce7e0322aa267d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0069ec1660f8e3ed8e2c0cdc1bc410') in 0.349092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_d.prefab
-  artifactKey: Guid(b685843e757502a4b83db9964e0096c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_d.prefab using Guid(b685843e757502a4b83db9964e0096c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce8cbe75c04cc1bc258a6dd0aad6197') in 0.042762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/ThirdPart/Nature pack extended/Materials/Mesh1_Trunk_Alt_ModelMat.mat
-  artifactKey: Guid(9e365818cbd7d2e489a37bcd7dbe7542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/Nature pack extended/Materials/Mesh1_Trunk_Alt_ModelMat.mat using Guid(9e365818cbd7d2e489a37bcd7dbe7542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f17c60deea4efaa0e9e013b175242bf') in 0.049471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/ThirdPart/Nature pack extended/naturePack_086.obj
-  artifactKey: Guid(b30ca052aede1c34aab2a055d4c942de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/Nature pack extended/naturePack_086.obj using Guid(b30ca052aede1c34aab2a055d4c942de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e11d634693e2adc35a5c123447f73b') in 0.089326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_c.prefab
-  artifactKey: Guid(56ab64e7b97c8d84eba97d049c739f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_c.prefab using Guid(56ab64e7b97c8d84eba97d049c739f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03df39a5cfc3c9584509059869c256d') in 0.046377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/ThirdPart/Nature pack extended/naturePack_108.obj
-  artifactKey: Guid(17dbcb11b7464cb4c9ad434b437c3c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/Nature pack extended/naturePack_108.obj using Guid(17dbcb11b7464cb4c9ad434b437c3c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605beb047b3c58698ad877daf44c5395') in 0.072525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/FireEffect/OtherAssets/Scripts/CFXR Runtime.asmdef
-  artifactKey: Guid(785156d0baf9e564e92265c9169511bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Scripts/CFXR Runtime.asmdef using Guid(785156d0baf9e564e92265c9169511bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcde2dd440ff2e49958cbfeb98e54a4') in 0.029233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_a.prefab
-  artifactKey: Guid(ed018072c2a086646b6a178812f1691f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_a.prefab using Guid(ed018072c2a086646b6a178812f1691f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3980781e48dd544d67a9b8feed4902fe') in 0.056855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/ThirdPart/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_ruin_b.FBX
-  artifactKey: Guid(072a6a13f1af64c4f88b7ff738f65941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_ruin_b.FBX using Guid(072a6a13f1af64c4f88b7ff738f65941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc8b2e7231a41874ad80c1fa0cdaa07') in 0.047110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/ThirdPart/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_ruin_a.FBX
-  artifactKey: Guid(38660e6ae3a4a754daf21cd587cc7c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_ruin_a.FBX using Guid(38660e6ae3a4a754daf21cd587cc7c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300b1ab489b5723abc0b172c5f056c70') in 0.088239 seconds 
+  Time since last request: 536769.184347 seconds.
+  path: Assets/Level_1/ThirdParty/Wizard/Animations/WizardAnim.controller
+  artifactKey: Guid(1f1f3ed02e285584683f63102802ce02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level_1/ThirdParty/Wizard/Animations/WizardAnim.controller using Guid(1f1f3ed02e285584683f63102802ce02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fa6839b4168530fa136226d74d6d2e') in 0.420809 seconds 
